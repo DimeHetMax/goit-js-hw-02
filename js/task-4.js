@@ -9,16 +9,16 @@ const getShippingCost = country => {
 
   switch (country) {
     case 'China':
-      message = `"Shipping to ${country} will cost ${countryObj.china} credits",`;
+      message = `Shipping to ${country} will cost ${countryObj.china} credits`;
       break;
     case 'Chile':
-      message = `"Shipping to ${country} will cost ${countryObj.chile} credits",`;
+      message = `Shipping to ${country} will cost ${countryObj.chile} credits`;
       break;
     case 'Australia':
-      message = `"Shipping to ${country} will cost ${countryObj.australia} credits",`;
+      message = `Shipping to ${country} will cost ${countryObj.australia} credits`;
       break;
     case 'Jamaica':
-      message = `"Shipping to ${country} will cost ${countryObj.jamaica} credits",`;
+      message = `Shipping to ${country} will cost ${countryObj.jamaica} credits`;
       break;
     default:
       message = 'Sorry, there is no delivery to your country';
